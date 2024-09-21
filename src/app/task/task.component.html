@@ -1,0 +1,13 @@
+<div>
+  <span
+    [class.line-through]="task.completed"
+    [class.completed]="task.completed"
+    class="flex-grow text-lg"
+  >
+    {{ task.title }}
+  </span>
+  <div>
+    <button (click)="onToggle()" [class.marked]="task.completed">✅</button>
+    <button (click)="onDelete()">❌</button>
+  </div>
+</div>

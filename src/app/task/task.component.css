@@ -1,0 +1,26 @@
+.line-through {
+  text-decoration: line-through;
+}
+
+.completed {
+  color: red;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button.marked {
+  background-color: yellow;
+  color: black;
+}
